@@ -69,7 +69,7 @@ type
 - Componentes reutilizáveis em frameworks.
 
 
-## 📌 Atividade prática
+## Atividade prática
 
 **Escreva uma explicação com suas palavras do que são generics, por que são úteis, e implemente exemplos simples como:**
 
@@ -100,7 +100,3 @@ type
     function Obter(Index: Integer): T;
   end;
 ```
-
----
-
-Este módulo é essencial para fundamentar o uso de *Generics* nos próximos conteúdos, preparando você para aplicar esse conceito em estruturas mais complexas e reais, como DAOs e frameworks.
