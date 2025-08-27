@@ -1,14 +1,14 @@
 
 # Módulo 1: Introdução aos Generics
 
-🎯 **Objetivo:**  
+**Objetivo:**  
 Compreender o conceito de *generics* e identificar sua utilidade prática no desenvolvimento de software, especialmente em linguagens como Delphi.
 
 ---
 
-## ✅ O que são Generics?
+O que são Generics?
 
-Generics são um recurso da linguagem que permite criar classes, interfaces e métodos parametrizados por tipo.  
+Generics são recursos de linguagens de programação, que permite criar  estruturas genéricas sem tipos definidos. Tais como classes, interfaces e métodos parametrizados por tipo.  
 Em vez de definir explicitamente o tipo de dados com os quais uma estrutura trabalha, usamos um marcador genérico (como `<T>`) que será substituído em tempo de compilação pelo tipo desejado.
 
 **Exemplo simples em Delphi:**
@@ -26,7 +26,7 @@ type
 
 ---
 
-## ✅ Vantagens de usar Generics
+## Vantagens de usar Generics
 
 - **Reutilização de código:** uma mesma estrutura pode ser usada com diferentes tipos.
 - **Segurança de tipo em tempo de compilação:** evita erros de *casting*.
@@ -34,7 +34,7 @@ type
 
 ---
 
-## ✅ Comparação com tipos variantes e casting
+## Comparação com tipos variantes e casting
 
 - Com `Variant` ou `Pointer`, temos flexibilidade, mas perdemos segurança e clareza.
 - Com generics, mantemos a flexibilidade **sem abrir mão da segurança de tipos**.
@@ -60,17 +60,16 @@ type
   end;
 ```
 
----
+-
 
-## ✅ Situações comuns de uso
+## Situações comuns de uso
 
 - Estruturas de dados: listas, pilhas, filas.
 - DAOs e repositórios genéricos.
 - Componentes reutilizáveis em frameworks.
 
----
 
-## 📌 Atividade prática
+## Atividade prática
 
 **Escreva uma explicação com suas palavras do que são generics, por que são úteis, e implemente exemplos simples como:**
 
@@ -101,7 +100,3 @@ type
     function Obter(Index: Integer): T;
   end;
 ```
-
----
-
-Este módulo é essencial para fundamentar o uso de *Generics* nos próximos conteúdos, preparando você para aplicar esse conceito em estruturas mais complexas e reais, como DAOs e frameworks.
