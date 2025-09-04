@@ -14,7 +14,8 @@ unit ExemploTList;
 interface
 
 uses
-  System.SysUtils, System.Generics.Collections;
+  System.SysUtils,
+  System.Generics.Collections;
 
 type
   TExemploTList = class
