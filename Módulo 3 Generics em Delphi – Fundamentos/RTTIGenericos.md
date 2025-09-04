@@ -8,7 +8,7 @@ Com generics, podemos descobrir **qual tipo foi usado no parâmetro** de uma cla
 ## Exemplo em Delphi
 
 ```delphi
-// 04/09/2025 - Autor: Josenilson - Projeto PDI Generics
+
 
 unit ExemploRTTIGenericos;
 
