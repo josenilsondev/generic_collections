@@ -20,7 +20,8 @@ unit ExemploTObjectList;
 interface
 
 uses
-  System.SysUtils, System.Generics.Collections;
+  System.SysUtils,
+  System.Generics.Collections;
 
 type
   TPessoa = class
