@@ -1,6 +1,3 @@
-### 📌 `tobjectlist.md`
-
-```markdown
 # Exemplo com TObjectList<T>
 
 **Explicação:**  
@@ -9,7 +6,7 @@ Pode assumir a responsabilidade de liberar memória dos itens (`OwnsObjects = Tr
 
 ---
 
-## Código
+## Exemplo em Delphi
 
 ```delphi
 unit ExemploTObjectList;
