@@ -1,10 +1,4 @@
-
----
-
-###  `tdictionary.md`
-
-```markdown
-# Exemplo com TDictionary<TKey, TValue>
+# TDictionary<TKey, TValue>
 
 **Explicação:**  
 `TDictionary<TKey, TValue>` é usado para armazenar pares **chave/valor**.  
@@ -12,7 +6,7 @@ Permite buscas rápidas e impede chaves duplicadas.
 
 ---
 
-## Código
+## Exemplo em Delphi
 
 ```delphi
 unit ExemploTDictionary;
