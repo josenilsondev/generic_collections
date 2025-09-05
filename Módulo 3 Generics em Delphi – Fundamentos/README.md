@@ -12,7 +12,7 @@ Neste módulo, veremos coleções e também usos avançados como declaração de
 1. [TList<T>](./TList.md)  
 2. [TDictionary<TKey, TValue>](./TDictionary.md)  
 3. [TObjectList<T>](./TObjectList.md)  
-4. [Declaração de Classes e Métodos Genéricos](./ClassesMetodosGenericos.md)  
+4. [Classes e Métodos Genéricos](./ClassesMetodosGenericos.md)  
 5. [Tipos Genéricos em RTTI](./RTTIGenericos.md)  
 
 ---
