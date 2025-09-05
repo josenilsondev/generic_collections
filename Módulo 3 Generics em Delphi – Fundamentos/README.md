@@ -26,6 +26,6 @@ Com generics, temos **segurança de tipo** e **menos conversões explícitas**.
 ## 📖 Documentação Oficial
 - [Generics (Embarcadero DocWiki)](https://docwiki.embarcadero.com/RADStudio/en/Generics)  
 - [System.Generics.Collections](https://docwiki.embarcadero.com/Libraries/en/System.Generics.Collections)  
-- [RTTI e Generics](https://docwiki.embarcadero.com/RADStudio/en/RTTI)  
+- [RTTI e Generics](https://docwiki.embarcadero.com/RADStudio/Athens/en/Run-Time_Type_Identification)  
 
 ---
