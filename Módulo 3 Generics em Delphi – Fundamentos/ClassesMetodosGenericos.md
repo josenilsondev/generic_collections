@@ -9,7 +9,7 @@ Em Delphi, é possível criar **classes e métodos genéricos** que trabalham co
 ```delphi
 // 04/09/2025 - Autor: Josenilson - Projeto PDI Generics
 
-unit ExemploClassesMetodosGenericos;
+unit ClassesMetodosGenericos;
 
 interface
 
