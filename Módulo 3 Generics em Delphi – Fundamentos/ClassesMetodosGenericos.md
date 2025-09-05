@@ -7,18 +7,19 @@ Em Delphi, é possível criar **classes e métodos genéricos** que trabalham co
 ## Exemplo em Delphi
 
 ```delphi
-// 04/09/2025 - Autor: Josenilson - Projeto PDI Generics
+
 
 unit ClassesMetodosGenericos;
 
 interface
 
 uses
-  System.SysUtils, System.Generics.Collections;
+  System.SysUtils,
+  System.Generics.Collections;
 
 type
-  // Classe genérica que funciona como repositório
-  TRepositorio<T> = class
+
+  TGeneric<T> = class
   private
     FItens: TList<T>;
   public
@@ -31,30 +32,30 @@ type
 
 implementation
 
-{ TRepositorio<T> }
+{ TGeneric<T> }
 
-constructor TRepositorio<T>.Create;
+constructor TGeneric<T>.Create;
 begin
   FItens := TList<T>.Create;
 end;
 
-destructor TRepositorio<T>.Destroy;
+destructor TGeneric<T>.Destroy;
 begin
   FItens.Free;
   inherited;
 end;
 
-procedure TRepositorio<T>.Adicionar(const AItem: T);
+procedure TGeneric<T>.Adicionar(const AItem: T);
 begin
   FItens.Add(AItem);
 end;
 
-function TRepositorio<T>.Buscar(const AIndex: Integer): T;
+function TGeneric<T>.Buscar(const AIndex: Integer): T;
 begin
   Result := FItens[AIndex];
 end;
 
-procedure TRepositorio<T>.Listar;
+procedure TGeneric<T>.Listar;
 var
   LItem: T;
 begin
