@@ -1,30 +1,27 @@
-Módulo 5 – Avançado em Delphi (PDI):
+# Módulo 5 – Avançado em Delphi
 
+## Objetivo
+Ir além do básico, explorando recursos avançados de **Generics em Delphi**, incluindo **constraints**, **herança**, **desempenho**, **RTTI avançada** e **integração com interfaces**.  
+Este módulo prepara a base para criação de frameworks mais robustos, como mini ORMs e sistemas de injeção de dependência.
 
+---
 
-Objetivo: Ir além do básico.
+## Conteúdo
 
+1. [Constraints (`where T: class`)](Constraints.md)  
+   Definições detalhadas de constraints, usos práticos e exemplos em Delphi.
 
+2. [Inheritance com Classes Genéricas](Inheritance.md)  
+   Como herdar de classes genéricas, extender comportamentos e aplicar boas práticas.
 
-Conteúdos:
+3. [Desempenho e RTTI com Generics](DesempenhoRTTI.md)  
+   Impactos de desempenho ao usar generics, boas práticas, e exemplos de uso com RTTI.
 
+4. [Integração com Interfaces e RTTI Avançada](interfacesRTTI.md)  
+   Uso de interfaces genéricas, atributos customizados, reflexão de tipos e cenários reais (ORM, injeção de dependência, validação dinâmica).
 
+---
 
-Constraints (where T: class)
-
-
-
-Inheritance com classes genéricas
-
-
-
-Workarounds para partial specialization (Delphi não tem suporte direto)
-
-
-
-Desempenho e RTTI com generics
-
-
-
-Integração com interfaces e RTTI avançada
+## Conclusão
+Este módulo consolida os conceitos mais poderosos de Generics em Delphi.
 
